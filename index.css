@@ -70,13 +70,13 @@ body {
     line-height: 1.5;
 }
 
-/* Colored borders */
+
 .card-teal { border-top: 5px solid #16c7c9; }
 .card-red { border-top: 5px solid #ff6b6b; }
 .card-blue { border-top: 5px solid #4a90e2; }
 .card-yellow { border-top: 5px solid #ffc04d; }
 
-/* Positioning to match layout */
+
 .card:nth-child(1) {
     grid-column: 1;
     grid-row: 2;
@@ -97,7 +97,7 @@ body {
     grid-row: 3;
 }
 
-/* Make it responsive */
+
 @media (max-width: 900px) {
     .cards-container {
         grid-template-columns: 1fr;
